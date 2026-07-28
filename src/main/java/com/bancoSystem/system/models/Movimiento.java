@@ -45,7 +45,7 @@ public class Movimiento {
     @JoinColumn(name = "cuenta_id", nullable = false)
     private CuentaBancaria cuentaBancaria;
 
-    // Constructors
+    //! Constructors
     public Movimiento() {
     }
 
@@ -57,7 +57,7 @@ public class Movimiento {
         this.cuentaBancaria = cuentaBancaria;
     }
 
-    // Getters
+    // * Getters
     public Long getId() {
         return id;
     }
@@ -82,7 +82,7 @@ public class Movimiento {
         return cuentaBancaria;
     }
 
-    // Setters
+    // * Setters
     public void setTipo(Tipos tipo) {
         this.tipo = tipo;
     }
