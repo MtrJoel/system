@@ -77,6 +77,10 @@ public class CuentaBancaria {
         this.estado = estado;
     }
 
+    public CuentaBancaria(){
+        
+    }
+
 
     public CuentaBancaria(String numeroCuenta, String titular, BigDecimal balance, Estados estado){
         this.numeroCuenta = numeroCuenta;
